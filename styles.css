@@ -134,3 +134,24 @@ a{
     color:gray;
 }
 
+.quote
+{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    background-color: #e5e7eb;
+    padding:100px;
+}
+.text{
+    font-size:32px;
+    font-weight: 100;
+    color:#1f2937;
+}
+.author
+{
+    text-align:end ;
+    margin-right: 10px;;
+    color:#1f2937;
+    font-weight: 900;
+    font-size: large;
+}
